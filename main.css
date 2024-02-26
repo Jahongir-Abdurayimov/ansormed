@@ -39,6 +39,7 @@ body {
   font-size: 14px;
 }
 .site-link {
+  display: inline-block;
   text-decoration-line: none;
   font-size: 15px;
   background-color: #de2e54;
