@@ -1,15 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+.site-header {
+  padding:  24px 0;
+}
 .header-link {
   text-decoration-line: none;
+  margin-right: 115px;
 }
 .sitenav {
   display: inline-block;
+  margin-right: 115px;
 }
 .sitenav-list {
   list-style: none;
+  padding-left:0 ;
 
 }
 .sitenav-item {
   display: inline-block;
+  margin-right: 32px;
+}
+.blog {
+  margin: 0;
 }
 .item-link {
   text-decoration-line: none;
@@ -21,37 +43,134 @@
   font-size: 15px;
   background-color: #de2e54;
   color: #fff;
-  border: 2px solid #DE2E54;
+  border: 2px solid #de2e54;
   border-radius: 8px;
+  padding: 12px 24px;
+ align-items: center;
 
 }
 .hero {
+  padding-top: 29px;
   background: #0eb4c1;
 }
 .wrapper-hero-title {
   display: inline-block;
   width: 500px;
   color: #fff;
+  margin-bottom: 120px;
+  
 
 }
 .hero-title {
+  
   font-size: 36px;
+  margin: 0 0 16px;
+  
 }
 .title-desc {
   font-size: 18px;
+  margin: 0 0 36px;
+  
+}
+.hero-link {
+  margin-bottom: 120px;
+}
+.services {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.services-list {
+  margin-bottom: 60px;
+ 
+}
+.services-item {
+  margin-bottom: 80px;
+}
+.last {
+  margin: 0;
 }
 
 .services-title {
+  margin: 0 0 56px;
   text-align: center;
   font-size: 36px;
-
+ 
 }
 .services-list {
   list-style: none;
+}
+.item-title {
+  margin: 0 0 24px;
+  font-size: 24px;
+  color: #222;
+}
+.item-title-desc {
+  margin: 0;
+  color: #444;
 }
 
 .wrapper-item-title {
   display: inline-block;
   width: 600px;
+  margin: 26px 0 26px 64px;
+}
+.services-link {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  
+}
+.site-article {
+  background-color: #0eb4c1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+
+}
+.article-title {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 40px;
+
+}
+.article-list {
+  padding-left: 0;
+}
+
+.article-item {
+display: inline-block;
+
+}
+.call {
+  margin-right: 40px;
+}
+.article-link {
+  padding: 12px 24px;
+  text-decoration-line: none;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 2px solid #FFF;
+
+}
+.site-footer {
+  background-color: #222;
+  padding: 24px 0;
+
+}
+.footer-logo-link {
+  display: inline-block;
+  text-decoration-line: none;
+}
+.footer-list {
+  display: inline-block;
+}
+.footer-item {
+  display: inline-block;
+  margin-right: 32px;
+}
+.footer-item-link {
+  text-decoration-line: none;
+  color: #fff;
 }
 
